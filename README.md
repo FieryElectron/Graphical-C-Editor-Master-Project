@@ -4,7 +4,7 @@ This is an application that generates C code with graphical programming.
 
 ## Important Features
 * Self-developed SVG based GUI web framework
-* Neural Network Code Generator In the experimental stage
+* Neural Network Code Generator In the experimental stage (NN model from https://github.com/FieryElectron/NN-Code-Generator)
 
 ## Run backend
 
@@ -25,3 +25,4 @@ This is an application that generates C code with graphical programming.
 ## Neural Network Code Generator
 
 <img src="NNCodeGenerator.gif" width="500" height="280" />
+
