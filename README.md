@@ -24,4 +24,4 @@ This is an application that generates C code with graphical programming.
 
 ## Neural Network Code Generator
 
-<img src="NNWCodeGenerator.gif" width="500" height="280" />
+<img src="NNCodeGenerator.gif" width="500" height="280" />
