@@ -36,8 +36,8 @@ int main();
 
 
 void init(List* ls){
-ls->pHead = NULL;
 ls->pTail = NULL;
+ls->pHead = NULL;
 }
 
 
@@ -142,7 +142,7 @@ int count;
 init((& list));
 count = 0;
 while(((count ++) < 10)){
-insertTail((& list), count);
+insertHead((& list), count);
 }
 printList((& list));
 deletePos((& list), 2);
