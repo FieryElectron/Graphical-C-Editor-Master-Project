@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Microsoft yahei, serif;
+}
+
+html body {
+    /* background: rgba(47, 47, 47, 1); */
+    background: #2f2f2f;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background: #444;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: #444;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #666;
+}
+
+::-webkit-scrollbar-corner {
+    background: #444;
+}
+
+
+/*animation */
+
+#code_menu_bar {
+    left: 66px;
+    right: 175px;
+    top: 0px;
+    /* bottom: 40px; */
+    height: 60px;
+    background:#2f2f2f;
+    position: absolute;
+    overflow: hidden;
+}
+
+#code_middle_layout {
+    left: 66px;
+    right: 175px;
+    top: 66px;
+    bottom: 40px;
+    background: rgba(63, 63, 60, 1);
+    position: absolute;
+    overflow: hidden;
+}
+
+#code_generate_panel {
+    left: 66px;
+    right: 175px;
+    top: 66px;
+    bottom: 40px;
+    background: rgba(63, 63, 60, 1);
+    position: absolute;
+    overflow: hidden;
+}
+
+#code_menu {
+    /* left: -280px; */
+    left: 0;
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    transition: 0.5s;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#code_menu:hover {
+    transition: 0.5s;
+    left: 0;
+}
+
+#code_detail {
+    /* right: -280px; */
+    right: 0;
+    width: 300px;
+    height: 100%;
+    transition: 0.5s;
+    position: absolute;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#code_detail:hover {
+    transition: 0.5s;
+    right: 0;
+}
+
+#code_detail_background {
+    top: 0;
+    height: 10000px;
+    position: absolute;
+    width: 300px;
+    background: #999;
+}
+
+#code_menu_background {
+    top: 0;
+    height: 10000px;
+    position: absolute;
+    width: 300px;
+    background: #999;
+}
+
+.rect_button:hover {
+    fill: rgba(209, 30, 30, 0.74)
+}
+
+
+/*-----------------------------*/
+
+svg:focus {
+    outline: none;
+}
+
+svg {
+    cursor: default;
+}
+
+text {
+    white-space: pre;
+}
+
+
+/* h4, div {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+} */
+
+text::selection {
+    color: transparent;
+    background: transparent;
+}
+
+textarea {
+    background: rgb(40,40,40);
+    position: relative;
+    font-family:"Cambria";
+    font-size: 20px;
+    width: 80%;
+    height: 80%;
+    left:10%;
+    top:0%;
+    border: none;
+    overflow: auto;
+    outline: none;
+
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+
+    resize: none; /*remove the resize handle on the bottom right*/
+}
+
+button{
+	/* background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer; */
+	outline: inherit;
+}
